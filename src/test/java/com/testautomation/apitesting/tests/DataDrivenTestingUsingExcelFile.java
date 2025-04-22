@@ -1,13 +1,10 @@
 package com.testautomation.apitesting.tests;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
@@ -18,7 +15,6 @@ import com.testautomation.apitesting.listener.RestAssuredListener;
 import com.testautomation.apitesting.pojos.Booking;
 import com.testautomation.apitesting.pojos.BookingDates;
 import com.testautomation.apitesting.utils.FileNameConstants;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

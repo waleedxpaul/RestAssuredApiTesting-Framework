@@ -11,7 +11,6 @@ import org.apache.logging.log4j.Logger;
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.jayway.jsonpath.JsonPath;
 import com.testautomation.apitesting.listener.RestAssuredListener;
 import com.testautomation.apitesting.utils.BaseTest;

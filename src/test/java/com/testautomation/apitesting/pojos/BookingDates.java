@@ -1,5 +1,4 @@
 package com.testautomation.apitesting.pojos;
-
 public class BookingDates {
 
 	private String checkin;

@@ -1,21 +1,16 @@
 package com.testautomation.apitesting.tests;
-
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.jayway.jsonpath.JsonPath;
 import com.testautomation.apitesting.listener.RestAssuredListener;
 import com.testautomation.apitesting.utils.BaseTest;
 import com.testautomation.apitesting.utils.FileNameConstants;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -33,7 +28,6 @@ import net.minidev.json.JSONArray;
 public class AllureReportGeneration extends BaseTest {
 
 	private static final Logger logger = LogManager.getLogger(AllureReportGeneration.class);
-
 	@Story("Story 1")
 	@Test(description = "end to end api testing")
 	@Description("end to end testing")
@@ -214,6 +208,5 @@ public class AllureReportGeneration extends BaseTest {
 		logger.info("e2eAPIRequest test execution ended...");
 
 	}
-
 
 }
